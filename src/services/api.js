@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://172.16.2.110:3000'
+    baseURL: 'https://backend-goweek2018.herokuapp.com'
 });
 
 export default api;
